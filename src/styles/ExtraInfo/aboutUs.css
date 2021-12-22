@@ -1,0 +1,72 @@
+*{
+    background-color: black;
+    color: white;
+}
+.container{
+    padding: 2%;
+}
+
+.codePlatformWrapper{
+    display: flex;
+    margin-top: 8rem;
+    gap: 20px;
+    width: fit-content;
+    /* height: fit-content; */
+    
+}
+@media screen and (min-width: 576px) {
+    .codePlatformWrapper {
+        transform: rotate(-90deg);
+    }
+  }
+.codeSites{
+    color: white;
+}
+.anticon svg{
+    background-color: rgba(44, 44, 44, 1);
+}
+.compete{
+    letter-spacing: 2px;
+    font-size: 8rem; 
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    color: rgba(44, 44, 44, 1);
+    margin-left: auto;
+    width: fit-content;
+}
+.faqsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.q{
+    background: none;
+     border: none;
+     outline: none;
+     color: white;
+     font-size: inherit;
+     width: 95%;
+}
+.ans{
+    color: grey;
+    background-color: rgba(44, 44, 44, 1);
+}
+.qAns{
+    width: 90%;
+    height: fit-content;
+    background-color: rgba(44, 44, 44, 1);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center;
+    border: 3px solid rgb(31,30,30);
+    box-shadow: 2px 2px 2px rgb(31,30,18);
+    font-size: 1rem
+}
+.dragdown{
+    color: white;
+}
