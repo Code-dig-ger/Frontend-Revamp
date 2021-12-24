@@ -17,15 +17,13 @@ function AboutUs(props) {
     const [toggleQ3, setToggleQ3] = useState(false);
     const [toggleQ4, setToggleQ4] = useState(false);
     const [toggleQ5, setToggleQ5] = useState(false);
-    const { Title } = Typography;
-    const { Text, Link } = Typography;
 
     console.log(props);
     return (
-        <>
+        <div className='container'>
             <Row>
                 <Col span={24}>
-                    <Title style={{ color: 'white', fontSize: '3.3rem' }} >About us</Title>
+                    <h1 className='aboutusTitle' >About us</h1>
                 </Col>
             </Row>
             <Row gutter={[8, 24]} className='AboutUsContentWrapper' >
@@ -44,25 +42,14 @@ function AboutUs(props) {
                     <p className="contentMaterial" style={{ fontSize: '1.5em', color: 'white' }}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet voluptate laboriosam, earum sit, ipsam debitis officia veniam architecto iste error deleniti aliquam voluptas at sapiente tempora, delectus amet! Dolorum, odit.</p>
                 </Col>
             </Row>
-            {/* <Row className='AboutUsContentWrapper' >
-                <Col  sm={12} md={8} xs={24}>
-                    col1
-                </Col>
-                <Col sm={12} md={8} xs={24}  className='logoWrapper'>
-                   col2
-                </Col>
-                <Col  sm={12} md={8} xs={24} >
-                    col3
-                </Col>
-            </Row> */}
-            {/* <Row>
+            <Row>
                 <Col span={24} className='competeWrapper'>
                     <h1 className='compete' >COMPETE</h1>
                 </Col>
-            </Row> */}
+            </Row>
             <Row>
                 <Col span={24}>
-                    <div className="faqHeading" style={{ fontSize: '2.5rem' }}>FREQUENTLY ASKED QUESTIONS</div>
+                    <div className="faqHeading" style={{ fontSize: '2.5rem', display: 'flex', justifyContent: 'center' }}>FREQUENTLY ASKED QUESTIONS</div>
                 </Col>
             </Row>
             <Row>
@@ -122,7 +109,7 @@ function AboutUs(props) {
                     </div>
                 </Col>
             </Row>
-        </>
+        </div>
     )
 }
 

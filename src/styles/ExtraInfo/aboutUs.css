@@ -5,13 +5,17 @@
 .container{
     padding: 2%;
 }
-
+.aboutusTitle{
+    color: white;
+    font-size: 3.3rem;
+    display: flex;
+    justify-content: center;
+}
 .codePlatformWrapper{
     display: flex;
     margin-top: 8rem;
     gap: 20px;
     width: fit-content;
-    /* height: fit-content; */
     
 }
 @media screen and (min-width: 576px) {
