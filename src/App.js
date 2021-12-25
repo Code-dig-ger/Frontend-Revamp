@@ -100,7 +100,7 @@ const App = () => {
     let location = useLocation()
     return (
       //location.search is the part of url after ? symbol
-      <Contests queryStr={location.search} ContestAPI = {ContestAPI} />
+      <Contests queryStr={location.search} ContestAPI={ContestAPI} />
     )
   }
 
@@ -154,7 +154,6 @@ const App = () => {
                 {/* wise - topic,level | type - ladder,practice | slug is selected series */}
                 <Route path="/problems" element={<ProblemsPage1 />} />
                 {/* Problems page */}
-
                 <Route path="/contests" element={<ContestPage1 />} />
                 {/* Contest page */}
                 <Route
