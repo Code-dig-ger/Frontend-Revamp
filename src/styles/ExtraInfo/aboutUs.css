@@ -64,12 +64,18 @@
     background-color: rgba(44, 44, 44, 1);
     color: white;
     padding: 5px 15px;
-    border-radius: 5px;
     display: flex; 
+    border-radius: 5px;
     align-items: center;
-    border: 3px solid rgb(31,30,30);
+    outline: 3px solid rgb(31,30,30);
     box-shadow: 2px 2px 2px rgb(31,30,18);
     font-size: 1rem
+}
+.qAns:hover{
+    cursor: pointer;
+    outline: 3px solid #005E76;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }
 .dragdown{
     color: white;
