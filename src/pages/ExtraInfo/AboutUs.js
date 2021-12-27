@@ -25,7 +25,7 @@ function AboutUs(props) {
         </Col>
       </Row>
       <Row gutter={[8, 24]} className="AboutUsContentWrapper">
-        <Col sm={12} md={5} xs={24} >
+        <Col sm={12} md={5} xs={24}>
           <div className="codePlatformWrapper">
             <p className="codeSites">CODECHEF</p>
             <p className="codeSites">ATCODER</p>
@@ -35,7 +35,7 @@ function AboutUs(props) {
         <Col sm={12} md={9} xs={24} className="logoWrapper">
           <img src={logo} alt="codediggerLogo" />
         </Col>
-        <Col sm={12} md={10} xs={24} className='aboutContent'>
+        <Col sm={12} md={10} xs={24} className="aboutContent">
           <p
             className="contentHeadLine"
             style={{ fontSize: '1.8em', color: 'white' }}
