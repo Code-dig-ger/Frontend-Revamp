@@ -25,17 +25,17 @@ function AboutUs(props) {
         </Col>
       </Row>
       <Row gutter={[8, 24]} className="AboutUsContentWrapper">
-        <Col sm={12} md={3} xs={24}>
+        <Col sm={12} md={5} xs={24} >
           <div className="codePlatformWrapper">
             <p className="codeSites">CODECHEF</p>
             <p className="codeSites">ATCODER</p>
             <p className="codeSites">CODEFORCES</p>
           </div>
         </Col>
-        <Col sm={12} md={6} xs={24} className="logoWrapper">
+        <Col sm={12} md={9} xs={24} className="logoWrapper">
           <img src={logo} alt="codediggerLogo" />
         </Col>
-        <Col sm={12} md={12} xs={24}>
+        <Col sm={12} md={10} xs={24} className='aboutContent'>
           <p
             className="contentHeadLine"
             style={{ fontSize: '1.8em', color: 'white' }}
@@ -159,7 +159,7 @@ function AboutUs(props) {
                     </p>
                   </div>
                 )}
-              </div>{' '}
+              </div>
               <CaretDownOutlined className="dragdown" />
             </div>
             <div
