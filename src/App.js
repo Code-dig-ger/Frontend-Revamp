@@ -37,7 +37,6 @@ import ContestAPI from './actions/Contest'
 
 const { Header, Footer, Content } = Layout
 
-//react context
 export const CredentialsContext = React.createContext()
 
 const App = () => {
