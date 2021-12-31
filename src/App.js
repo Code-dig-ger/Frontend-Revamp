@@ -195,7 +195,7 @@ const App = () => {
                 {/* <Route element={ErrorPage}/> */}
               </Router>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>Codedigger ©2021 </Footer>
+            {/* <Footer style={{ textAlign: 'center' }}>Codedigger ©2021 </Footer> */}
           </Layout>
         </CredentialsContext.Provider>
     </>
