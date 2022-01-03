@@ -28,7 +28,6 @@
   display: block;
   transition: 0.3s;
 }
-
 /* When you mouse over the navigation links, change their color */
 .sidenav1 a:hover,
 .offcanvas a:focus {
