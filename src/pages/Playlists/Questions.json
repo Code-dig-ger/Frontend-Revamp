@@ -1,143 +1,143 @@
 {
-    "Questions": [
+  "Questions": [
+    {
+      "questionTitle": "Question-1",
+      "platform": "Codeforces",
+      "difficulty": "Div1",
+      "rating": "2624",
+      "url": "https://codeforces.com/problemset/problem/1618/F",
+      "tags": [
         {
-            "questionTitle" : "Question-1",
-            "platform" : "Codeforces",
-            "difficulty" : "Div1",
-            "rating" : "2624",
-            "url" : "https://codeforces.com/problemset/problem/1618/F",
-            "tags" : [
-                {
-                    "tag1": "Arrays",
-                    "tag2": "DP",
-                    "tag3": "Graph"
-                }
-            ]
-        },
-        {
-            "questionTitle" : "Question-2",
-            "platform" : "Codeforces",
-            "difficulty" : "Div2",
-            "rating" : "1724",
-            "url" : "https://codeforces.com/problemset/problem/1618/F",
-            "tags" : [
-                {
-                    "tag1": "Arrays",
-                    "tag2": "DP"
-                }
-            ]
-        },
-        {
-            "questionTitle" : "Question-3",
-            "platform" : "Codeforces",
-            "difficulty" : "Div3",
-            "rating" : "1200",
-            "url" : "https://codeforces.com/problemset/problem/1618/F",
-            "tags" : [
-                {
-                    "tag1": "Arrays",
-                    "tag2": "DP",
-                    "tag3": "Graph"
-                }
-            ]
-        },
-        {
-            "questionTitle" : "Question-4",
-            "platform" : "Codeforces",
-            "difficulty" : "Div3",
-            "rating" : "1200",
-            "url" : "https://codeforces.com/problemset/problem/1618/F",
-            "tags" : [
-                {
-                    "tag1": "Arrays",
-                    "tag2": "DP",
-                    "tag3": "Graph"
-                }
-            ]
-        },
-        {
-            "questionTitle" : "Question-5",
-            "platform" : "Codeforces",
-            "difficulty" : "Div3",
-            "rating" : "1200",
-            "url" : "https://codeforces.com/problemset/problem/1618/F",
-            "tags" : [
-                {
-                    "tag1": "Arrays",
-                    "tag2": "DP",
-                    "tag3": "Graph"
-                }
-            ]
-        },
-        {
-            "questionTitle" : "Question-6",
-            "platform" : "Codeforces",
-            "difficulty" : "Div3",
-            "rating" : "1200",
-            "url" : "https://codeforces.com/problemset/problem/1618/F",
-            "tags" : [
-                {
-                    "tag1": "Arrays",
-                    "tag2": "DP",
-                    "tag3": "Graph"
-                }
-            ]
-        },
-        {
-            "questionTitle" : "Question-7",
-            "platform" : "Codeforces",
-            "difficulty" : "Div3",
-            "rating" : "1200",
-            "url" : "https://codeforces.com/problemset/problem/1618/F",
-            "tags" : [
-                {
-                    "tag1": "Arrays",
-                    "tag2": "DP",
-                    "tag3": "Graph"
-                }
-            ]
-        },
-        {
-            "questionTitle" : "Question-8",
-            "platform" : "Codeforces",
-            "difficulty" : "Div3",
-            "rating" : "1200",
-            "url" : "https://codeforces.com/problemset/problem/1618/F",
-            "tags" : [
-                {
-                    "tag1": "Arrays",
-                    "tag2": "DP",
-                    "tag3": "Graph"
-                }
-            ]
-        },
-        {
-            "questionTitle" : "Question-9",
-            "platform" : "Codeforces",
-            "difficulty" : "Div3",
-            "rating" : "1200",
-            "url" : "https://codeforces.com/problemset/problem/1618/F",
-            "tags" : [
-                {
-                    "tag1": "Arrays",
-                    "tag2": "DP",
-                    "tag3": "Graph"
-                }
-            ]
-        },
-        {
-            "questionTitle" : "Question-10",
-            "platform" : "Codeforces",
-            "difficulty" : "Div3",
-            "rating" : "1200",
-            "url" : "https://codeforces.com/problemset/problem/1618/F",
-            "tags" : [
-                {
-                    "tag1": "Arrays",
-                    "tag2": "DP",
-                    "tag3": "Graph"
-                }
-            ]
+          "tag1": "Arrays",
+          "tag2": "DP",
+          "tag3": "Graph"
         }
-    ]
+      ]
+    },
+    {
+      "questionTitle": "Question-2",
+      "platform": "Codeforces",
+      "difficulty": "Div2",
+      "rating": "1724",
+      "url": "https://codeforces.com/problemset/problem/1618/F",
+      "tags": [
+        {
+          "tag1": "Arrays",
+          "tag2": "DP"
+        }
+      ]
+    },
+    {
+      "questionTitle": "Question-3",
+      "platform": "Codeforces",
+      "difficulty": "Div3",
+      "rating": "1200",
+      "url": "https://codeforces.com/problemset/problem/1618/F",
+      "tags": [
+        {
+          "tag1": "Arrays",
+          "tag2": "DP",
+          "tag3": "Graph"
+        }
+      ]
+    },
+    {
+      "questionTitle": "Question-4",
+      "platform": "Codeforces",
+      "difficulty": "Div3",
+      "rating": "1200",
+      "url": "https://codeforces.com/problemset/problem/1618/F",
+      "tags": [
+        {
+          "tag1": "Arrays",
+          "tag2": "DP",
+          "tag3": "Graph"
+        }
+      ]
+    },
+    {
+      "questionTitle": "Question-5",
+      "platform": "Codeforces",
+      "difficulty": "Div3",
+      "rating": "1200",
+      "url": "https://codeforces.com/problemset/problem/1618/F",
+      "tags": [
+        {
+          "tag1": "Arrays",
+          "tag2": "DP",
+          "tag3": "Graph"
+        }
+      ]
+    },
+    {
+      "questionTitle": "Question-6",
+      "platform": "Codeforces",
+      "difficulty": "Div3",
+      "rating": "1200",
+      "url": "https://codeforces.com/problemset/problem/1618/F",
+      "tags": [
+        {
+          "tag1": "Arrays",
+          "tag2": "DP",
+          "tag3": "Graph"
+        }
+      ]
+    },
+    {
+      "questionTitle": "Question-7",
+      "platform": "Codeforces",
+      "difficulty": "Div3",
+      "rating": "1200",
+      "url": "https://codeforces.com/problemset/problem/1618/F",
+      "tags": [
+        {
+          "tag1": "Arrays",
+          "tag2": "DP",
+          "tag3": "Graph"
+        }
+      ]
+    },
+    {
+      "questionTitle": "Question-8",
+      "platform": "Codeforces",
+      "difficulty": "Div3",
+      "rating": "1200",
+      "url": "https://codeforces.com/problemset/problem/1618/F",
+      "tags": [
+        {
+          "tag1": "Arrays",
+          "tag2": "DP",
+          "tag3": "Graph"
+        }
+      ]
+    },
+    {
+      "questionTitle": "Question-9",
+      "platform": "Codeforces",
+      "difficulty": "Div3",
+      "rating": "1200",
+      "url": "https://codeforces.com/problemset/problem/1618/F",
+      "tags": [
+        {
+          "tag1": "Arrays",
+          "tag2": "DP",
+          "tag3": "Graph"
+        }
+      ]
+    },
+    {
+      "questionTitle": "Question-10",
+      "platform": "Codeforces",
+      "difficulty": "Div3",
+      "rating": "1200",
+      "url": "https://codeforces.com/problemset/problem/1618/F",
+      "tags": [
+        {
+          "tag1": "Arrays",
+          "tag2": "DP",
+          "tag3": "Graph"
+        }
+      ]
+    }
+  ]
 }

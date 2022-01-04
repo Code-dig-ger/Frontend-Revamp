@@ -1,74 +1,74 @@
 body {
-    background: linear-gradient(270deg,#0f1111,#121314);
+  background: linear-gradient(270deg, #0f1111, #121314);
 }
 
 .cards-list {
-    z-index: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background: linear-gradient(270deg,#0f1111,#121314);
-  }
-  
-  .card {
-    margin: 80px auto;
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-    cursor: pointer;
-    transition: 0.4s;
-  }
-  
-  .card .card_image {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-  }
-  
-  .card .card_image img {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-    object-fit: cover;
-  }
-  
-  .card .card_title {
-    text-align: center;
-    border-radius: 0px 0px 40px 40px;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: -80px;
-    height: 40px;
-  }
-  
-  /* .card:hover {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: linear-gradient(270deg, #0f1111, #121314);
+}
+
+.card {
+  margin: 80px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+/* .card:hover {
     transform: scale(0.97, 0.97);
   } */
-  
-  .title-white {
-    color: white;
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
   }
-  
-  .title-black {
-    color: black;
-  }
-  
-  @media all and (max-width: 500px) {
-    .card-list {
-      /* On small screens, we are no longer using row direction but column */
-      flex-direction: column;
-    }
-  }
-  
-  .dot {
-    position:absolute;
-    top: 320px;
-    left: 290px;
-    height: 65px;
-    width: 65px;
-    background-color: white;
-    border-radius: 50%;
-    display: inline-block;
-  }
+}
+
+.dot {
+  position: absolute;
+  top: 320px;
+  left: 290px;
+  height: 65px;
+  width: 65px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
