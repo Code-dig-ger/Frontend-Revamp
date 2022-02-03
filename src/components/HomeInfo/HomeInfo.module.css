@@ -1,0 +1,34 @@
+.featTitle {
+  background-image: linear-gradient(
+    90deg,
+    #35ae9a 25.41%,
+    rgba(0, 135, 169, 0.6) 103.95%
+  );
+  background-clip: text;
+  color: transparent;
+  font-size: 58px;
+  text-align: left;
+  margin-bottom: 5px;
+  line-height: 62px;
+  width: 80%;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.featDesc {
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  color: #fff;
+  width: 70%;
+}
+
+@media screen and (max-width: 1600px) {
+  .featTitle {
+    width: 100%;
+  }
+  .featDesc {
+    width: 100%;
+  }
+}

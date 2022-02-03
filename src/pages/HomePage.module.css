@@ -1,0 +1,254 @@
+/* STYLES FOR HERO/LANDING PAGE */
+
+.hero {
+  width: 65%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.heroInfo {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 150px;
+  margin-bottom: 150px;
+}
+
+.heroTitle {
+  font-size: 60px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 0;
+  line-height: 70px;
+}
+
+.heroDesc {
+  color: #b0b0b0;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+  font-weight: 300;
+  padding-right: 100px;
+}
+
+.heroImgBox {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+}
+
+.heroBlur {
+  position: absolute;
+  z-index: -1;
+  bottom: 200px;
+  left: 50px;
+}
+.heroBlur2 {
+  position: absolute;
+  z-index: -1;
+  top: 200px;
+  right: 50px;
+}
+
+/* STYLES FOR FEATURES */
+
+.featBox {
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.featImageBox {
+  position: relative;
+}
+
+.featBlur {
+  position: absolute;
+  left: 500px;
+  z-index: -1;
+}
+
+.featInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 100px;
+  width: 50%;
+}
+
+.featPlatform {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.ladderInfo {
+  margin-left: 120px;
+}
+.ladderBox {
+  margin-top: 250px;
+  margin-bottom: 200px;
+}
+
+.ladderImg,
+.topicImg,
+.levelImg {
+  position: absolute;
+}
+.ladderImg {
+  right: 100px;
+  bottom: -300px;
+}
+
+.topicImg {
+  right: -150px;
+  bottom: -120px;
+  z-index: -2;
+}
+
+.levelImg {
+  right: -150px;
+  bottom: -250px;
+  z-index: -1;
+}
+
+.ladderBlur {
+  position: absolute;
+  right: 280px;
+  bottom: -170px;
+  z-index: -5;
+}
+
+.listContainer {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.listInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.listHeading {
+  font-size: 36px;
+  background-image: linear-gradient(
+    90deg,
+    #35ae9a 25.41%,
+    rgba(0, 135, 169, 0.6) 103.95%
+  );
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.listDesc {
+  font-size: 22px;
+  font-family: 'Poppins';
+  color: #fff;
+  text-align: left;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1600px) {
+  .home img {
+    display: none;
+  }
+  .heroImgBox {
+    display: none;
+  }
+  .listItem > img {
+    display: block;
+  }
+  .featPlatform > img {
+    display: block;
+  }
+  .heroDesc {
+    padding-right: 50px;
+  }
+  .heroInfo {
+    width: 100%;
+    margin: 0px;
+  }
+  .heroTitle {
+    width: 100%;
+  }
+  .featBox {
+    width: 65%;
+  }
+  .featImageBox {
+    display: none;
+  }
+  .featInfo {
+    width: 100%;
+  }
+  .ladderBox {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .ladderInfo {
+    margin-left: 0px;
+  }
+  .listContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero {
+    width: 90%;
+  }
+  .featBox {
+    width: 90%;
+  }
+  .listContainer {
+    width: 90%;
+  }
+  .listHeading {
+    font-size: 28px;
+  }
+  .listDesc {
+    font-size: 16px;
+  }
+}
