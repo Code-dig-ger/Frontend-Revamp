@@ -100,7 +100,6 @@ const HomePage = () => {
             src={TopicWindow}
             alt="Topic Window"
             className={styles.topicImg}
-            data-aos="fade-left"
           />
           <img
             src={LevelWindow}
@@ -111,7 +110,6 @@ const HomePage = () => {
             src={Ellipse}
             alt="Ellipse"
             className={`${styles.ladderBlur}`}
-            data-aos="fade-up-left"
           />
         </div>
       </div>
