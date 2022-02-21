@@ -1,0 +1,457 @@
+* {
+  box-sizing: border-box;
+}
+.ant-row {
+  margin: 0;
+}
+.solved {
+  color: #30ec30;
+  height: 96px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: #191c1f;
+  width: 14rem;
+  min-width: fit-content;
+  box-shadow: 2px 2px 2px 3px black;
+  overflow: auto;
+  border-left: 5px solid #00b88a;
+  padding-top: 1.25rem;
+  font-size: 1rem;
+}
+.wrong {
+  background-color: #191c1f;
+  color: white;
+  height: 96px;
+  width: 14rem;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: 2px 2px 2px 3px black;
+  min-width: fit-content;
+  overflow: auto;
+  border-left: 5px solid #ff3752;
+  padding-top: 1.25rem;
+  font-size: 1rem;
+}
+.upsolved {
+  color: tomato;
+  background-color: #191c1f;
+  height: 96px;
+  text-align: center;
+  width: 14rem;
+  padding-top: 10px;
+  box-shadow: 2px 2px 2px 3px black;
+  border-left: 2px solid lightskyblue;
+  min-width: fit-content;
+  overflow: auto;
+  border-left: 5px solid #ffb422;
+  padding-top: 1.25rem;
+  font-size: 1rem;
+}
+.contestName {
+  font-size: 1rem;
+  font-weight: 900;
+  box-shadow: 2px 2px 2px 3px black;
+  font-size: larger;
+  background-color: #191c1f;
+  height: 98px;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 1.2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 16rem;
+  align-items: center;
+  overflow: auto;
+  z-index: 3;
+}
+
+.sc-gsDKAQ {
+  width: 245px !important;
+}
+.not_attempted {
+  background-color: #191c1f;
+  width: 14rem;
+  color: white;
+  box-shadow: 2px 2px 2px 3px black;
+  height: 96px;
+  text-align: center;
+  padding-top: 10px;
+  min-width: fit-content;
+  overflow: auto;
+  border-left: 5px solid #8141a8;
+  padding-top: 1.25rem;
+  font-size: 1rem;
+}
+
+.contestRow {
+  height: 90px;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+.tags {
+  background: rgb(126, 122, 8);
+  background: linear-gradient(
+    0deg,
+    rgba(126, 122, 8, 1) 0%,
+    rgba(253, 208, 45, 1) 91%
+  );
+  border: 1px solid rgb(39, 38, 38);
+  border-radius: 5px;
+  margin-left: 8px;
+}
+.rec-pagination {
+  display: none !important;
+}
+
+.TagImage {
+  position: absolute;
+  left: 12.5rem;
+  top: 4.5rem;
+  width: 25px;
+  height: 15px;
+  float: right;
+  background: none;
+}
+
+Col {
+  border-radius: 10px;
+}
+.heads {
+  text-align: center;
+}
+.flags {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.virtualPracticeToggle {
+  float: right;
+  border-radius: 10px;
+  color: rgb(255, 250, 250);
+  background-color: rgb(0, 83, 161);
+  padding: 8px;
+}
+.box {
+  width: 20%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 0.8rem;
+  padding: 5px;
+  color: #fff;
+  border: 2px solid #06d85f;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06d85f;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(3, 3, 3, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.statusIcon {
+  margin-right: 1rem;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.btnUpdate {
+  float: right;
+  border-radius: 35px;
+}
+.popover {
+  margin: 2px auto;
+  padding: 2px;
+  background: #fff;
+  border-radius: 5px;
+  width: 20%;
+  position: relative;
+  transition: all 2s ease-in-out;
+  background-color: beige;
+}
+
+.popover h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popover .close {
+  position: absolute;
+  top: 2px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06d85f;
+}
+.popup .content {
+  max-height: 10%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 40%;
+  }
+  .popup {
+    width: 40%;
+  }
+}
+.loading-animation {
+  display: block;
+  margin: auto;
+}
+.paginator {
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  display: block;
+}
+.pagination {
+  border-radius: 5px;
+  text-align: center;
+}
+a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.upperButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 2px;
+  border-radius: 3px;
+  margin: 2px;
+}
+.green {
+  color: #00b88a;
+}
+.red {
+  color: #ff3752;
+}
+.filterWrong {
+  color: #ff3752;
+}
+.viol {
+  color: #8141a8;
+}
+.filterNotAttempted {
+  color: #8141a8;
+}
+.blue {
+  color: #ffb422;
+}
+.tagsbox {
+  color: black;
+}
+.active-page {
+  background-color: rgb(0, 162, 255);
+  padding: 9px;
+  position: relative;
+  top: -0.32rem;
+}
+
+.page-link {
+  background-color: black;
+}
+.paginate {
+  align-items: center;
+  display: flex;
+}
+.body {
+  padding-left: 8px;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.ant-switch {
+  margin-right: 1rem;
+  background-color: rgb(58, 55, 55);
+}
+.ant-switch-checked {
+  background-color: rgb(14, 94, 7);
+}
+.pagination {
+  display: flex;
+}
+.react-multi-carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-link {
+  position: relative;
+  top: -0.9rem;
+  margin: 2px;
+}
+.TagImage:hover {
+  cursor: pointer;
+}
+
+.contestName h6 {
+  background: none;
+  color: whitesmoke;
+  font-size: 0.9rem;
+}
+
+.Sitename div {
+  display: flex;
+  flex-direction: column;
+}
+
+.Right-Side {
+  display: flex;
+  float: right;
+}
+.Right-Side div {
+  float: right;
+  border-radius: 5px;
+}
+.Right-Side div div {
+  display: block;
+}
+.Right-Side div h6 {
+  font-size: 0.8rem;
+  padding-right: 1rem;
+  padding: 3px;
+  color: white;
+  margin-top: 2px;
+}
+.refreshImg {
+  width: 50px;
+  height: 48px;
+}
+.btnUpdate {
+  border: none;
+  height: 10%;
+  background: none;
+}
+
+.switch {
+  display: block;
+  margin-left: 45px;
+}
+.ImgLogo {
+  width: 220px;
+  height: 30px;
+  background: white;
+}
+
+.contestRow {
+  margin: 2.5rem 6rem !important;
+}
+
+.qname {
+  display: flex;
+  justify-content: space-around;
+}
+.Cardcont {
+  background: none;
+}
+
+.noDisplay {
+  display: none !important;
+}
+.heading {
+  color: white;
+  font-size: 3rem;
+}
+
+.Sitename {
+  display: grid;
+  grid-template-columns: 1rem 0.5fr 2fr 0.6fr 3rem;
+  margin-top: 2rem;
+  margin-left: 9rem;
+  margin-right: 6rem;
+}
+
+.upsolveIcon {
+  color: aqua;
+  font-size: 6rem;
+  border: 10px solid aqua;
+  padding: 0.8rem;
+  margin-right: 1rem;
+  grid-column: 2/3;
+  padding-left: 2rem;
+}
+.upsolveInfo {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  grid-column: 3/4;
+}
+.upsolveFilter {
+  background-color: #191c1f;
+  grid-column: 4/5;
+  padding: 1rem;
+}
+.upsolveFilter h4 {
+  color: white;
+}
+.upsolveRefresh {
+  color: aqua;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 13%;
+}
+.upsolveRefresh svg:hover {
+  cursor: pointer;
+}
+.filterHeading {
+  display: flex;
+}
+
+FaArrowAltCircleUp {
+  color: red;
+}
+.filterCheckbox {
+  margin-bottom: 6px;
+}
+.Spacing {
+  margin-left: 3rem;
+}
+
+.rec-carousel .rec-arrow {
+  background-color: #191c1f;
+  color: #00b88a;
+  border-radius: 0;
+  height: 85%;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.rec-arrow-left {
+  margin-left: 13px;
+}
+
+.status {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 1.4rem;
+}
