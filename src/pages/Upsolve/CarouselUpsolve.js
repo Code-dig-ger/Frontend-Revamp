@@ -1,6 +1,5 @@
 import React from 'react'
 import { Row, Col } from 'antd'
-// import Carousel from 'react-multi-carousel'
 import Carousel from 'react-elastic-carousel'
 import CommonCard from './CommonContestCard'
 import CommonQues from './CommonQues'
