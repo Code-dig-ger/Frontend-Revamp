@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from './Logo.png'
 import styled from '@emotion/styled'
-import { UserOutlined } from '@ant-design/icons'
+import { UserOutlined, MenuOutlined } from '@ant-design/icons'
 
 const NavbarWrapper = styled.div`
   display: flex;
@@ -25,6 +25,17 @@ const LogoDiv = styled.div`
 
 const RightBar = styled.div`
   display: flex;
+  & span {
+    display: none;
+  }
+
+  @media (max-width: 1000px) {
+    & span {
+      display: block;
+      position: relative;
+      top: 1rem;
+    }
+  }
 `
 
 const List = styled.ul`
@@ -32,6 +43,9 @@ const List = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
+  @media (max-width: 1000px) {
+    display: none;
+  }
 `
 const ListItem = styled.li`
   padding: 0.9rem 1.2rem;
@@ -70,6 +84,12 @@ function Navbar() {
           <img src={logo} alt="logo" />
         </LogoDiv>
         <RightBar>
+          <MenuOutlined
+            style={{
+              // display: 'none',
+              fontSize: '25px',
+            }}
+          />
           <List>
             <ListItem>Problems</ListItem>
             <ListItem>Practice</ListItem>
