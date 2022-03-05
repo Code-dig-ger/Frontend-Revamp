@@ -34,8 +34,10 @@ import TermsAndConditions from './pages/ExtraInfo/TermsAndConditions'
 import Contests from '../src/pages/Contests/Contests'
 import { Layout, Menu } from 'antd'
 import ContestAPI from './actions/Contest'
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 
-const { Header, Footer, Content } = Layout
+const { Header, Content } = Layout
 
 //react context
 export const CredentialsContext = React.createContext()
@@ -116,7 +118,8 @@ const App = () => {
     <>
       <CredentialsContext.Provider value={{ creds, setCreds }}>
         <Layout>
-          <Header>
+          <Navbar />
+          {/* <Header>
             <div className="logo" />
             <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
               {new Array(7).fill(null).map((_, index) => {
@@ -124,7 +127,7 @@ const App = () => {
                 return <Menu.Item key={key}>{`nav ${key}`}</Menu.Item>
               })}
             </Menu>
-          </Header>
+          </Header> */}
           <Content>
             <Router>
               <Routes>
@@ -180,7 +183,8 @@ const App = () => {
               {/* <Route element={ErrorPage}/> */}
             </Router>
           </Content>
-          <Footer style={{ textAlign: 'center' }}>Codedigger ©2021 </Footer>
+          {/* <Footer style={{ textAlign: 'center' }}>Codedigger ©2021 </Footer> */}
+          <Footer />
         </Layout>
       </CredentialsContext.Provider>
     </>
